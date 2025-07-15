@@ -34,3 +34,4 @@ const CLIENT_ID = '1386118904232935545'; // remplace par l'ID de ton bo
 })();
 
 client.login(process.env.TOKEN);
+// premier déploiement
