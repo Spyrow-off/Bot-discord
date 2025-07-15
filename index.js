@@ -21,7 +21,7 @@ const commands = [
 ].map(cmd => cmd.toJSON());
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
-const CLIENT_ID = '1386118904232935545'; // remplace par l'ID de ton bot
+const CLIENT_ID = '1386118904232935545'; // remplace par l'ID de ton bo
 
 (async () => {
   try {
