@@ -1,4 +1,4 @@
-app = "Discord-bot" # remplace par ton nom d'app Fly.io
+app = "bot-discord-9xypww" # remplace par ton nom d'app Fly.io
 primary_region = "cdg"
 
 [env]
