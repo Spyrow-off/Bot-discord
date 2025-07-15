@@ -1,0 +1,14 @@
+app = "ton-nom-app-fly" # remplace par ton nom d'app Fly.io
+primary_region = "cdg"
+
+[env]
+  NODE_ENV = "production"
+
+[build]
+  builder = "heroku/buildpacks:20"
+
+[deploy]
+  release_command = "node index.js"
+
+[experimental]
+  auto_rollback = true
